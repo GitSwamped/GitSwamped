@@ -1,0 +1,7 @@
+[commit]
+	template = ~/.gitmessage
+[core]
+	editor = code --wait
+[user]
+	email = <yourEmail@here>
+	name = <Your Name Here>

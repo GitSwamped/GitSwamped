@@ -1,0 +1,11 @@
+# 👥 CODEOWNERS for GitSwamped
+# This file defines who owns what parts of the repo.
+# In this sandbox, it's simple: Carrie is the default owner.
+
+# Default owner for everything in the repo
+*       @CouldBeYourMom
+
+# Example: assign ownership for specific folders/files (uncomment & edit as needed)
+# /docs/     @teammate1
+# /src/      @teammate2
+# /tests/    @teammate3
