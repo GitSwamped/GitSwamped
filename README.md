@@ -1,9 +1,9 @@
 # 🐊 GitSwamped  
 
-![GitHub last commit](https://img.shields.io/github/last-commit/CouldBeYourMom/GitSwamped)
-![GitHub issues](https://img.shields.io/github/issues/CouldBeYourMom/GitSwamped)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/CouldBeYourMom/GitSwamped)
-![License](https://img.shields.io/github/license/CouldBeYourMom/GitSwamped)
+![GitHub last commit](https://img.shields.io/github/last-commit/GitSwamped/GitSwamped)
+![GitHub issues](https://img.shields.io/github/issues/GitSwamped/GitSwamped)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/GitSwamped/GitSwamped)
+![License](https://img.shields.io/github/license/GitSwamped/GitSwamped)
 
 Welcome to **GitSwamped** — a safe swamp to get our Git hands muddy!  
 This repo is a sandbox for practicing GitHub workflows, 3rd Party app integration, and repo setup.  
@@ -38,8 +38,7 @@ For **all setup and workflow steps**, see **[CONTRIBUTING.md](./CONTRIBUTING.md)
 
 ## 📖 Docs & Helpful Extras
 - **Contributing workflow** → [CONTRIBUTING.md](./CONTRIBUTING.md)  
-- **Glossary (what is HEAD, origin, upstream, etc.)** → [GLOSSARY.md](./GLOSSARY.md)  
-- **Guide with screenshots** → `docs/` 
+- **Glossary (what is HEAD, origin, upstream, etc.)** → [GLOSSARY.md](docs/GLOSSARY.md)
 
 ---
 

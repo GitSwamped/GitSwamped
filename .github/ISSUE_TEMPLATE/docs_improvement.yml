@@ -1,0 +1,24 @@
+name: Docs improvement
+description: Fix or improve wording, structure, or examples in the docs
+title: "docs: <page or topic>"
+labels: [documentation]
+assignees: []
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Doc page / file
+      placeholder: "CONTRIBUTING.md → Commit Message Template"
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: What should change?
+      placeholder: "Clarify that Windows users can pass multiple dirs to `mkdir` by separating with commas."
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Why is this better?

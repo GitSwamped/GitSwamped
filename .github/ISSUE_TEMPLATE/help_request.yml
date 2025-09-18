@@ -1,0 +1,35 @@
+name: Help request
+description: Ask for help when you’re stuck
+title: "help: <short summary>"
+labels: [question, help wanted]
+assignees: []
+body:
+  - type: textarea
+    id: trying
+    attributes:
+      label: What are you trying to do?
+      placeholder: "Push local branch to origin and open a PR…"
+    validations:
+      required: true
+  - type: textarea
+    id: commands
+    attributes:
+      label: Exact commands you ran
+      render: bash
+      placeholder: |
+        git status
+        git remote -v
+        git push -u origin my-branch
+    validations:
+      required: true
+  - type: textarea
+    id: errors
+    attributes:
+      label: Full error text (copy/paste)
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots (optional)
+      description: Drag-and-drop images if they help explain the issue.

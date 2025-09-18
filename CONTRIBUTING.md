@@ -1,18 +1,18 @@
 # 👥 Contributing Guide – GitSwamped  
 
 Welcome to **GitSwamped**! This is a sandbox repo for practicing Git and GitHub workflows together.  
-The purpose here is to **learn by doing** — so don’t stress about perfection.  
+The purpose here is to **learn by doing**  so don’t stress about perfection.  
 
 ---
 
 ## 📂 Project Structure
 
 ```
-docs/        → Guides, screenshots, and resources  
+docs/        → Guides for tooling and integrations, screenshots, and resources  
 examples/    → Practice files (intros, hello worlds, etc.)  
 src/         → Placeholder for project code  
 tests/       → Example test files  
-.github/     → CODEOWNERS, issue/PR templates, git config/message templates  
+.github/     → CODEOWNERS, issue/PR templates, git message template  
 ```
 
 ---
@@ -75,35 +75,10 @@ tests/       → Example test files
 
 ## 📝 Optional: Commit Message Template  
 
-I’ve included a reusable commit message template in `/.github/gitmessage.txt`.  
-This helps you structure commits clearly and consistently.  
+I’ve included a reusable commit message template in `/.github/commit-template.txt`.  
+This helps you structure commits clearly and consistently every time you commit.  
 
-### Step 1. Copy the files locally  
-- Copy these two files from the repo:  
-  - `/.github/gitmessage.txt` → rename to `.gitmessage`  
-  - `/.github/gitconfig.txt` → rename to `.gitconfig` (only if you want to override your global config; optional)  
-
-Best place to store them: your **home directory**.  
-- On Windows: `C:\Users\<YourName>\`  
-- On macOS/Linux: `/Users/<YourName>/` or `/home/<YourName>/`  
-
-### Step 2. Tell Git to use the template  
-Run this command (adjust the path if needed):  
-
-```bash
-git config --global commit.template ~/.gitmessage
-```
-On Windows (PowerShell):  
-```powershell
-git config --global commit.template "C:\Users\<YourName>\.gitmessage"
-```
-
-### Step 3. Using the template  
-Run:
-```bash
-git commit
-```
-Git opens your editor (VSCode if configured). Fill out the template and save.
+See [`docs/tooling/LOCAL_GIT_SETUP.md`](docs/tooling/LOCAL_GIT_SETUP.md) for global setup, verification, and troubleshooting.
 
 ---
 

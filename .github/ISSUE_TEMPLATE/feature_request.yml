@@ -1,0 +1,30 @@
+name: Feature request
+description: Suggest an idea or improvement
+title: "feat: <short summary>"
+labels: [enhancement]
+assignees: []
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem to solve
+      description: What user problem does this address?
+      placeholder: "Students forget to set upstream on first push…"
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: Be specific; include examples of text, commands, or screenshots you’d add.
+      placeholder: "Add a step in CONTRIBUTING with `git push -u origin <branch>`…"
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+  - type: textarea
+    id: extra
+    attributes:
+      label: Additional context

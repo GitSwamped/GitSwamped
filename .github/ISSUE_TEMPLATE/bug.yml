@@ -1,0 +1,69 @@
+name: Bug report
+description: Create a report to help us improve
+title: "bug: <short summary>"
+labels: [bug]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a bug! Please fill out the fields below.
+  - type: input
+    id: summary
+    attributes:
+      label: Summary
+      description: What went wrong?
+      placeholder: "Error when pushing to GitHub using HTTPS…"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Be specific. Include exact commands you ran and file paths.
+      placeholder: |
+        1. Open PowerShell in repo root
+        2. Run `git add .`
+        3. Run `git commit -m "..."`
+        4. Run `git push origin main`
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior & full error text
+      description: Paste the full error text; avoid screenshots for logs if possible.
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: OS
+      placeholder: "Windows 11 / macOS 14 / Ubuntu 22.04"
+  - type: input
+    id: vscode
+    attributes:
+      label: VS Code version
+      placeholder: "Help → About"
+  - type: input
+    id: git
+    attributes:
+      label: Git version
+      placeholder: "git --version"
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Pre-submit checks
+      options:
+        - label: I searched existing issues.
+          required: true
+        - label: I can reproduce this on the latest `main`.
+          required: true
+        - label: I attached screenshots/logs as needed.
+          required: false

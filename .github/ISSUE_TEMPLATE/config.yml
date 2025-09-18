@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Start here – CONTRIBUTING
+    url: ./CONTRIBUTING.md
+    about: Basic workflow steps, commit messages, and branch conventions.
+  - name: Glossary – Git terms explained
+    url: ./GLOSSARY.md
+    about: HEAD, origin, upstream, push/pull/fetch, and more.

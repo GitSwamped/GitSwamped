@@ -1,0 +1,11 @@
+# Example settings for your global ~/.gitconfig
+# - Sets VS Code as the editor (so `git commit` opens VS Code and waits)
+# - Points commit.template to a file in your local home directory (put a copy there first)
+
+[commit]
+	template = ~/.commit-template	# update this path if you store it elsewhere
+[core]
+	editor = code --wait			# opens VS Code for commit messages, delete this block if not using VSCode
+[user]
+	email = <yourEmail@here>		# if using GitHub, I recommend using the email associated with your profile
+	name = <Your Name Here>
